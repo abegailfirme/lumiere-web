@@ -68,7 +68,7 @@ a {
     height: 100vh;
     width: 100%;
     position: absolute;
-    background-image: url("images/img1.jpeg");
+    background-image: url("images/banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -106,7 +106,8 @@ a {
 }
 
 .box > img {
-    width: 50%;
+    margin-top: 20px;
+    width: 50%;    
 }
 
 .box {
@@ -117,7 +118,7 @@ a {
 
 #landing-page-left {
     margin-left: auto;
-    padding: 50px;
+    padding-right: 120px;
     z-index: 9;
 }
 
@@ -190,12 +191,18 @@ a {
     }
 }
 
+
 .left{
     margin-left: auto;
 }
 
 .right {
     margin-right: auto;
+}
+
+.screenshot > img {
+    margin-top: 20px;
+    width: 40%;    
 }
 
 .contents {
