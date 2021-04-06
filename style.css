@@ -49,6 +49,15 @@ body {
     margin-left: auto;
 }
 
+.logo{
+    width: 10%;
+    padding: 0;
+}
+
+.push-right {
+    margin-right: auto;
+}
+
 li {
     padding: 20px;
 }
