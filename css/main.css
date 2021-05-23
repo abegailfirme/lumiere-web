@@ -530,8 +530,10 @@ button:focus {
 }
 
 .center{
+  display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
 }
 #services .services-item {
   padding: 60px 30px;
