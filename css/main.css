@@ -528,6 +528,11 @@ button:focus {
   font-size: 3vh;
   color: #a20414;
 }
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
 #services .services-item {
   padding: 60px 30px;
   border: 1px solid #ddd;
