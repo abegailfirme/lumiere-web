@@ -25,8 +25,8 @@ html {
   overflow-x: hidden; }
 
 p {
-  font-size: 14px;
-  color: #5e629c;
+  font-size: 3vh;
+  color: #403001;
   line-height: 26px;
   margin-bottom: 0; }
 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 400;
-  color: #151948; }
+  color: #261D11; }
 
 ul {
   margin: 0;
@@ -95,7 +95,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-header .desc-text p {
   font-size: 18px;
-  color: #5e629c;
+  color: #403001;
   line-height: 26px;
   margin-bottom: 0; }
 
@@ -106,10 +106,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 14px;
   padding: 10px 30px;
   border-radius: 4px;
+  background-color: #ffffff;
   font-family: 'Rubik', sans-serif;
   letter-spacing: 1px;
   font-weight: 500;
-  color: #fff;
+  color: #403001;
   border: none;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;
@@ -118,13 +119,17 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all 0.3s ease-in-out;
   display: inline-block; }
 
+.btn:hover {
+  background-color: #403001;
+  color: #ffffff;
+}
 .btn:focus,
 .btn:active {
   box-shadow: none;
   outline: none; }
 
 .btn-common {
-  background-color: #3ecf8e;
+  background-color: #F8D73A;;
   position: relative;
   z-index: 1;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
@@ -143,9 +148,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
-  background-color: transparent;
-  border-color: #3ecf8e;
-  color: #3ecf8e;
+  background-color: #403001;
+  border-color: #403001;
+  color:#403001;
   width: 160px;
   height: 50px;
   padding: 14px 15px; }
@@ -156,8 +161,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-border-filled {
   cursor: pointer;
-  background-color: #3ecf8e;
-  border: 1px solid #3ecf8e;
+  background-color: #403001;
+  border: 1px solid #403001;
   color: #fff;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
   width: 180px;
@@ -176,7 +181,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 16px; }
 
 .btn-rm {
-  color: #3c9cfd;
+  color: #F8D73A;;
   padding: 10px 0;
   text-transform: capitalize;
   font-size: 16px; }
@@ -184,9 +189,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .btn-rm i {
   vertical-align: middle; }
 
-.btn-singin {
-  background: #7fc9fb;
-  color: #fff;
+.btn-signin {
+  background: #ffffff;
+  color: #403001;
   padding: 10px 23px;
   margin-left: 30px;
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17); }
@@ -203,37 +208,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   color: #fff;
   box-shadow: 0px 0px 0px 0px rgba(96, 94, 94, 0.17); }
 
-.btn-apple {
-  border-width: 2px;
-  border-color: #3c96ff;
-  border-style: solid;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out; }
-
-.btn-apple i {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-.btn-apple:hover,
-.btn-apple:active,
-.btn-apple:focus {
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important; }
-
 button:focus {
   outline: none !important; }
 
 .btn-border-fill {
   background: #fff;
   border-color: #fff;
-  color: #3c9cfd; }
+  color: #F8D73A;; }
 
 .btn-subtitle {
   color: #191c1e;
@@ -313,7 +294,7 @@ button:focus {
   height: 100%;
   border-radius: 100%;
   border: 7px solid transparent;
-  border-top-color: #3c9cfd; }
+  border-top-color: #F8D73A; }
 
 #loader-1:before {
   z-index: 100;
@@ -348,8 +329,8 @@ button:focus {
   cursor: pointer;
   text-align: center;
   border-radius: 4px;
-  background: #5533ff;
-  background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+  background: #F8D73A;
+  background: linear-gradient(95deg, #2D2D30 40%, #F8D73A 100%);
   box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
   z-index: 9999999; }
 
@@ -508,7 +489,7 @@ button:focus {
       padding: 15px 15px; }
     .hero-area .contents .btn-border {
       border: 1px solid #fff;
-      color: #3ecf8e !important;
+      color: #F8D73A; !important;
       -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
       box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
       width: 180px;
@@ -526,7 +507,7 @@ button:focus {
       max-width: 100%; }
 .steps {
   font-size: 3vh;
-  color: #a20414;
+  color: #493803;
 }
 
 .center{
@@ -568,110 +549,22 @@ button:focus {
   #services .services-item h4 {
     font-size: 20px;
     font-weight: 600;
-    color: #a20414;
+    color: #261D11;
     margin-bottom: 15px; }
   #services .services-item p {
     font-size: 16px;
     margin-bottom: 10px;
-    color: #c4404de8; }
+    color: #403001; }
 
-#download-app {
-  padding-bottom: 100px; }
-  #download-app .download-info {
-    padding-top: 30px; }
-    #download-app .download-info h3 {
-      font-size: 35px;
-      font-weight: 600;
-      margin-bottom: 20px;
-      line-height: 44px; }
-    #download-app .download-info p {
-      font-size: 16px;
-      display: block;
-      margin-bottom: 35px; }
-    #download-app .download-info .downlaod-btn {
-      padding-bottom: 50px;
-      border-bottom: 1px solid #ff704f;
-      margin-bottom: 40px; }
-    #download-app .download-info .downlaod-btn a.play-store {
-      font-size: 12px;
-      box-shadow: 0px 10px 20px 2px rgba(255, 112, 79, 0.24);
-      border-radius: 35px;
-      text-transform: inherit;
-      text-align: left;
-      padding: 15px 80px;
-      width: 195px;
-      height: 65px;
-      line-height: 18px;
-      margin-right: 35px;
-      background: #ff704f;
-      background-position-x: left;
-      background-position-y: center;
-      background-position: 20%; }
-    #download-app .download-info .downlaod-btn a {
-      position: relative; }
-    #download-app .download-info .downlaod-btn a.play-store span {
-      font-size: 15px;
-      font-weight: 500; }
-    #download-app .download-info .downlaod-btn a.play-store i {
-      position: absolute;
-      left: 40px;
-      font-size: 28px;
-      color: #fff;
-      top: 18px; }
-    #download-app .download-info .downlaod-btn a.ios-store i {
-      position: absolute;
-      left: 40px;
-      font-size: 28px;
-      color: #000;
-      top: 18px; }
-    #download-app .download-info .downlaod-btn a.ios-store {
-      border: 1px solid #ff704f;
-      color: #151948;
-      font-size: 12px;
-      box-shadow: 0px 10px 20px 2px rgba(255, 112, 79, 0.24);
-      border-radius: 35px;
-      text-transform: inherit;
-      text-align: left;
-      padding: 15px 80px;
-      width: 195px;
-      height: 65px;
-      line-height: 18px;
-      margin-right: 35px;
-      background: #fff;
-      background-position-x: left;
-      background-position-y: center;
-      background-position: 20%;
-      position: relative; }
-    #download-app .download-info .downlaod-btn a.play-store:hover {
-      color: #151948;
-      -webkit-transition: all 0.8s ease-in-out;
-      -moz-transition: all 0.8s ease-in-out;
-      -o-transition: all 0.8s ease-in-out;
-      transition: all 0.8s ease-in-out; }
-    #download-app .download-info .downlaod-btn a.ios-store span {
-      font-size: 15px; }
-    #download-app .download-info .downlaod-btn a.ios-store:hover {
-      color: #ff704f;
-      -webkit-transition: all 0.8s ease-in-out;
-      -moz-transition: all 0.8s ease-in-out;
-      -o-transition: all 0.8s ease-in-out;
-      transition: all 0.8s ease-in-out; }
-  #download-app .download-statatics h3 {
-    color: #151948;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 0px; }
-  #download-app .download-statatics p {
-    font-size: 18px;
-    color: #5e629c; }
 
 /* ==========================================================================
    Footer section
    ========================================================================== */
 #footer-Content {
   padding-top: 130px;
-  background: #180e29; }
+  background: #403001; }
   #footer-Content .footer-logo img {
+    width: 100%;
     padding-top: 70px; }
   #footer-Content .form-control:focus {
     outline: none;
@@ -683,7 +576,7 @@ button:focus {
     padding-top: 30px;
     padding-bottom: 30px; }
     #footer-Content .copyright p {
-      color: #3ecf8e;
+      color: #e2e2e2;
       font-size: 18px; }
     #footer-Content .copyright a {
       color: #ddd; }
@@ -696,24 +589,12 @@ button:focus {
     height: 40px;
     margin-top: 18px; }
     #footer-Content .widget .subscribe-area input[type=email] {
-      background: #24153c;
+      background: #403001;
       border: 1px solid #fff;
       color: #e2e2e2;
       font-size: 14px;
       font-style: italic;
       height: 38px; }
-    #footer-Content .widget .subscribe-area span i {
-      position: absolute;
-      right: 0;
-      width: 60px;
-      height: 38px;
-      color: #fff;
-      top: 0;
-      background: #3ecf8e;
-      display: block;
-      padding: 9px 20px;
-      font-size: 18px;
-      border-radius: 0px 4px 4px 0px; }
   #footer-Content h3.block-title {
     color: #fff;
     font-size: 20px;
@@ -728,7 +609,7 @@ button:focus {
     -o-transition: all 300ms;
     transition: all 300ms; }
     #footer-Content ul.menu li a:hover {
-      color: #3ecf8e;
+      color:#e2e2e2;
       padding-left: 5px;
       -webkit-transition: all 300ms;
       -o-transition: all 300ms;
